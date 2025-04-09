@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from './components/nav/nav.component';
@@ -14,4 +14,6 @@ import { ContatoComponent } from "./components/contato/contato.component";
 })
 export class AppComponent {
   title = 'orcamentor';
+
+  
 }
